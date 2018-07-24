@@ -11,7 +11,7 @@ rm -f ./db/peer*
 
 echo $peerCount
 
-for (( i=0; i<$peerCount; i++ ))
+for (( i=0; i<=$peerCount; i++ ))
 	do
 		echo $i
 		export i=$i
