@@ -45,5 +45,6 @@ RUN \
 	chmod +x /usr/local/src/router/scripts/createPeers.sh && \
 	chmod +x /usr/local/src/router/scripts/renginx.sh \
 	&& \
-	./usr/local/src/router/scripts/createPeers.sh && \
-	./usr/local/src/router/scripts/renginx.sh
+	cd /usr/local/src/router/ && \
+	./scripts/createPeers.sh && \
+	./scripts/renginx.sh
