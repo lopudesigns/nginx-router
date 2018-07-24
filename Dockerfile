@@ -8,6 +8,21 @@ RUN \
 			awscli \
 			wget \
 			xz-utils \
+			autoconf \
+			automake \
+			autotools-dev \
+			bsdmainutils \
+			build-essential \
+			cmake \
+			doxygen \
+			libboost-all-dev \
+			libreadline-dev \
+			libssl-dev \
+			libtool \
+			liblz4-tool \
+			ncurses-dev \
+			pkg-config \
+			gdb \
 		&& \
     apt-get clean
 
