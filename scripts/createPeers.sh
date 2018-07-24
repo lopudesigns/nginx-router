@@ -46,6 +46,6 @@ for ((i=0;i<=$peerCount;i++))
 
 		# envsubst < ./db/peer$itemplate.txt > /etc/nginx/sites-enabled/peer$i
 		echo catting
-		cat /etc/nginx/site-enabled/peer$i
+		cat /etc/nginx/sites-enabled/peer$i
 		sleep 1
 done
