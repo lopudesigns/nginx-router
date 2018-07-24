@@ -1,2 +1,2 @@
-sudo service nginx status
-sudo service nginx reload
+service nginx status
+service nginx reload

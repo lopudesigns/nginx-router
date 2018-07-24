@@ -1,8 +1,8 @@
 chmod +x ./scripts/env.sh
 ./scripts/env.sh
 
-sudo rm -r ./sites-enabled/peer* 
-sudo rm -r ./db/peer* 
+rm -r ./sites-enabled/peer* 
+rm -r ./db/peer* 
 
 for (( i=0; i<$peerCount; i++ ))
 	do

@@ -1,2 +1,2 @@
-sudo rm -r ./sites-enabled/*
-sudo rm -r ./db/*
+rm -r ./sites-enabled/*
+rm -r ./db/*
