@@ -1,2 +1,4 @@
-rm -r ./sites-enabled/*
-rm -r ./db/*
+#!/bin/bash
+
+rm -rf ./sites-enabled/*
+rm -rf ./db/*

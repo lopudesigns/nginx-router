@@ -1,3 +1,5 @@
+#!/bin/bash
+
 chmod +x ./scripts/env.sh
 ./scripts/env.sh
 
