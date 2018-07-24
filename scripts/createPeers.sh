@@ -7,6 +7,8 @@ mkdir -p ./db/
 rm -f ./sites-enabled/peer*
 rm -f ./db/peer* 
 
+echo $peerCount
+
 for (( i=0; i<$peerCount; i++ ))
 	do
 		echo $i
