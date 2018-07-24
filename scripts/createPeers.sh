@@ -16,8 +16,10 @@ for (( i=0; i<$peerCount; i++ ))
 		echo $i
 		export i=$i
 		cp ./resources/peerX.txt ./db/peer$itemplate.txt
-		envsubst < ./db/peer$itemplate.txt > /etc/nginx/sites-enabled/peer$i
-		# echo catting
-		# cat ./site-enabled/peer$i.txt
+		sed 's/$subnet/subnet/g;s/$i/i/g' ./db/peer$itemplate.txt > /etc/nginx/sites-enabled/peer$i
+
+		# envsubst < ./db/peer$itemplate.txt > /etc/nginx/sites-enabled/peer$i
+		echo catting
+		cat /etc/nginx/site-enabled/peer$i
 		sleep 1
 done
