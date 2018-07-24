@@ -1,5 +1,5 @@
-chmod +x ./env.sh
-./env.sh
+chmod +x ./scripts/env.sh
+./scripts/env.sh
 
 sudo rm -r ./sites-enabled/peer* 
 sudo rm -r ./db/peer* 
