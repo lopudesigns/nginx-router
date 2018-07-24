@@ -1,4 +1,3 @@
-cd /usr/local/src/
 chmod +x ./env.sh
 ./env.sh
 
