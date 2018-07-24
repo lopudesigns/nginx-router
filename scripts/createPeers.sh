@@ -14,7 +14,7 @@ echo $peerCount
 for (( i=0; i<=$peerCount; i++ ))
 	do
 		echo $i
-		export i=$i
+		# export i=$i
 		echo 'server {
 			listen 80;
 			server_name peer'$i'.ezira.io;
