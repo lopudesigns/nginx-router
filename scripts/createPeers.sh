@@ -1,7 +1,9 @@
 #!/bin/bash
 
-chmod +x ./scripts/env.sh
-./scripts/env.sh
+# chmod +x ./scripts/env.sh
+# ./scripts/env.sh
+export subnet=172.17.0.
+export peerCount=10
 
 mkdir -p ./sites-enabled/
 mkdir -p ./db/
@@ -11,7 +13,7 @@ rm -f ./db/peer*
 
 echo $peerCount
 
-for (( i=0; i<=$peerCount; i++ ))
+for ((i=0;i<=$peerCount;i++))
 	do
 		echo $i
 		# export i=$i
